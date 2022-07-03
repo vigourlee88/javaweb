@@ -5,8 +5,8 @@ public class PlusAndMinus {
 		
 		int animalsInZoo = zebrasInZoo + giraffesInZoo;
 		System.out.println(animalsInZoo);
-		int numZebrasAfterTrade = zebrasInZoo -2;
-		System.out.println(numZerbrasAfterTrade);
+		int numZebrasAfterTrade = zebrasInZoo-2;
+		System.out.println(numZebrasAfterTrade);
 		
 	}
 }
