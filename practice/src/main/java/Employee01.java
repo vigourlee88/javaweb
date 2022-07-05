@@ -29,6 +29,5 @@ public class Employee01 {
     	System.out.println("职业:" + designation );
     	System.out.println("薪水" + salary );	
     }
-   
     
 }
