@@ -12,7 +12,7 @@ public class Store04 {
 	}
 	// main method
 	public static void main(String[] args) {
-		Store04 cookieShop = new Store04("cookies",12,3.75);
+		Store04 cookieshop = new Store04("cookies",12,3.75);
 		
 	}
 }
