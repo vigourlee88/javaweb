@@ -11,7 +11,8 @@ class PrimeDirective {
 			}else if (number < 2) {
 				return false;
 			}
-		}return false;
+		}
+		return false;
 	}
 	
 	public ArrayList<Integer> onlyPrimes(int[] numbers) {
@@ -32,9 +33,13 @@ class PrimeDirective {
 		System.out.println(pd.isPrime(2));
 		System.out.println(pd.isPrime(0));
 		*/
+		
+
+		
+		System.out.println(pd.isPrime(6));
+		
+		int[] numbers = null;
 		System.out.println(pd.onlyPrimes(numbers));
-		
-		
 		
 	}
 }
