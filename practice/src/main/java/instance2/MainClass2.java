@@ -10,9 +10,10 @@ public class MainClass2 {
 	public static void findDupicateInArray(int[] a) {
 		int count = 0;
 		for (int j = 0;j < a.length;j++) {
-			for(int k = j+1;k < a.length;k++)  {
+			for(int k = j + 1;k < a.length;k++)  {
 				if (a[j] == a[k]) {
 					count++;
+					break;
 				}
 			}
 			if ( count == 1) 

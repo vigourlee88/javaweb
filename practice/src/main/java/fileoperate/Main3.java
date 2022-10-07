@@ -14,11 +14,11 @@ import java.io.OutputStream;
 //使用 BufferedWriter 类的 read 和 write 方法将文件内容复制到另一个文件：
 public class Main3 {
 	public static void main(String[] args) throws Exception {
-		BufferedWriter out1 = new BufferedWriter(new FileWriter("scrfile"));
+		BufferedWriter out1 = new BufferedWriter(new FileWriter("C:\\Users\\jack\\Documents\\javaweb\\practice\\src\\main\\java\\fileoperate\\scrfile.txt"));
 		out1.write("string to be copied\n");
 		out1.close();
-		InputStream in = new FileInputStream(new File("srcfile"));
-		OutputStream out = new FileOutputStream(new File("destnfile"));
+		InputStream in = new FileInputStream(new File("C:\\Users\\jack\\Documents\\javaweb\\practice\\src\\main\\java\\fileoperate\\scrfile.txt"));
+		OutputStream out = new FileOutputStream(new File("C:\\Users\\jack\\Documents\\javaweb\\practice\\src\\main\\java\\fileoperate\\destnfile.txt"));
 		byte[] buf = new byte[1024];
 		int len;
 		while((len = in.read(buf)) > 0) {
@@ -26,7 +26,7 @@ public class Main3 {
 		}
 		in.close();
 		out.close();
-		BufferedReader in1 = new BufferedReader(new FileReader("destnfile"));
+		BufferedReader in1 = new BufferedReader(new FileReader("C:\\Users\\jack\\Documents\\javaweb\\practice\\src\\main\\java\\fileoperate\\destnfile.txt"));
 		String str;
 		while ((str = in1.readLine()) != null) {
 			System.out.println(str);

@@ -8,7 +8,7 @@ import java.util.Date;
 public class Main7 {
 	public static void main(String[] args) throws Exception {
 		
-		File fileToChange = new File("C:/myjavafile.txt");
+		File fileToChange = new File("myjavafile.txt");
 		
 		fileToChange.createNewFile();
 		

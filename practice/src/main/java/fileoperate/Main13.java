@@ -7,7 +7,7 @@ import java.io.IOException;
 public class Main13 {
 	public static void main(String[] args) {
 		try {
-			File file = new File("C:/myfile.txt");
+			File file = new File("myfile.txt");
 			if(file.createNewFile())
 				System.out.println("文件创建成功! ");
 			else

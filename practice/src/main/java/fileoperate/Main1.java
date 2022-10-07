@@ -8,13 +8,14 @@ import java.io.IOException;
 public class Main1 {
 	public static void main(String[] args) {
 		try {
-			BufferedReader in = new BufferedReader(new FileReader("test.log"));
+			BufferedReader in = new BufferedReader(new FileReader("C:\\Users\\jack\\Documents\\javaweb\\practice\\src\\main\\java\\fileoperate\\test.log"));
 			String str;
 			while((str = in.readLine()) != null) {
 				System.out.println(str);
 			}
 			System.out.println(str);
 		}catch (IOException e) {
+			System.out.println(e);
 		}
 	}
 }

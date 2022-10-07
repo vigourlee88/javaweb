@@ -9,9 +9,9 @@ public class RunoobTest {
 	public static void main(String[] args) throws IOException {
 		
 		//旧的文件或目录
-		File oldName = new File("./runoob-test.txt");
+		File oldName = new File("C:\\Users\\jack\\Documents\\javaweb\\practice\\src\\main\\java\\fileoperate\\runoob-test.txt");
 		//新的文件或目录
-		File newName = new File("./runoob-test-2.txt");
+		File newName = new File("C:\\Users\\jack\\Documents\\javaweb\\practice\\src\\main\\java\\fileoperate\\runoob-test-2.txt");
 		
 		if(newName.exists()) {//确保新的文件名不存在
 			
