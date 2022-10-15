@@ -62,6 +62,7 @@ public class Test implements Runnable {
 			e.printStackTrace();
 		}
 		System.out.println("State of thread2 when it has finished it's execution - "+ thread2.getState());
+		
 	}
 }
 

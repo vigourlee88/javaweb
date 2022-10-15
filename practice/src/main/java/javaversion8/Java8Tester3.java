@@ -9,7 +9,11 @@ package javaversion8;
  * 可以直接在 lambda 表达式中访问外层的局部变量：
  *lambda 表达式的局部变量可以不用声明为 final，
  *但是必须不可被后面的代码修改（即隐性的具有 final 的语义）
- *在 Lambda 表达式中，一个与变量相同的名称或变量。 
+ *在 Lambda 表达式当中不允许声明一个与局部变量同名的参数或者局部变量.
+ *String first = "";  
+ *Comparator<String> comparator = (first, second) 
+ *-> Integer.compare(first.length(), second.length());  
+ *编译会出错 
  */
 public class Java8Tester3 {
 	public static void main(String[] args) {
