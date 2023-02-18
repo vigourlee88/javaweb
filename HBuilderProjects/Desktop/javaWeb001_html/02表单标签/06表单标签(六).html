@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<!--
+	<form></form>
+	用于在效果中定义一个表单，用于提交用户填写的数据
+	action属性   将数据提交到何处
+	  默认提交到本页
+	  本机内网路径
+	  互联网路径 http://
+	method属性将  数据以何种方式提交
+	 默认为 get
+	 提交方式可定义 :
+	 get 把数据拼接到地址栏上，提交的数据，敏感信息不安全。提交的数据量有限的
+	 或者 
+	 post没有把提交数据拼接到地址栏上，请求体。提交的数据相对安全。理论上提交数据量无限大 
+	 
+	 尽量使用post方式提交表单
+	 
+	-->
+	
+	<body>
+		<form action="demo.html" method="get">
+			<input type="text" name="uname"/>
+			<input type="submit"/>
+		</form>
+		
+		<br/>
+		<form action="demo.html" method="post">
+			<input type="text" name="uname"/>
+			<input type="submit"/>
+		</form>
+	</body>
+</html>

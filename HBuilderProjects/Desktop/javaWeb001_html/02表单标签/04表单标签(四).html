@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<!--
+	<select><select>选择框标签，定义一个带下拉选择框
+	name设置该标签对应的参数名，要想参数提交到参数列表上必须设置name属性
+	
+	multiple设置该标签全部显示，并且可以进行多选提交
+	
+	<option></option>标签 写在<select></select>标签内
+	选项标签，用于为一个选择框添加一个选项  仅用于展示
+	value设置需要提交的参数值
+	
+	selected设置选项的默认选中状态
+	
+	注意
+	option内容体，用于展示，提交value属性值
+	-->
+	<body>
+		<form>
+			<select name="test1">
+				<option value="1">选择选项卡一</option>
+				<option value="2">选择选项卡二</option>
+				<option value="3">选择选项卡三</option>
+			</select>
+			<br/>
+			
+			
+			<br/>
+			<select name="test1">
+				<option value="">请选择城市</option>
+				<option value="beijing" selected="selected">北京</option>
+				<option value="shanghai">上海</option>
+			</select>
+			<br/>
+			<br/>
+			<select name="hobby" multiple="multiple">
+				<option value="code">编码</option>
+				<option value="read">阅读</option>
+				<option value="run">跑步</option>
+			</select>
+			<input type="submit" />
+		</form>
+	</body>
+</html>

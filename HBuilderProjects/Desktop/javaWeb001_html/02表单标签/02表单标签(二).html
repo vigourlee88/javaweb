@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<!--
+		checkbox复选框 同一组内有复选效果
+		某个表单输入项需要通过参数列表提交submit，就必须设置name属性
+		
+		value设置标签对应的参数值，或作为按钮的名字
+		
+		file附件框，用于文件上传
+		reset重置按钮，用于将表单输入项恢复到默认状态
+		button普通按钮，需要和js事件一起用
+		hidden隐藏域，一般用作提交服务器需要拿到，但用户不需要看到的数据
+		-->
+		<form>
+			用户ID: <input type="hidden" name="uid" value="8s9da7f89as7887d"/><br/>
+			同户名: <input type="text" name="uname"/><br/>
+			爱好 : <input  type="checkbox"name="hobby" value="code" checked="checked" />编程
+			<input  type="checkbox" name="hobby"value="read"/>阅读
+			<input  type="checkbox" name="hobby" value="run"/>跑步
+			<br/>
+			照片 : <input type="file" name="photo"/><br/>
+			<input type="submit" value="注册"/>
+			<input type="reset"/>
+			<input type="button" value="我是按钮"/>
+			
+		</form>
+	</body>
+</html>
